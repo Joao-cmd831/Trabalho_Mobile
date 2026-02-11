@@ -1,0 +1,392 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family:'minhasfontes';
+    src: url(minhasfontes/Bangers-Regular.ttf);
+    font-style: normal;
+}
+@font-face{
+    font-family:'outrasfontes';
+    src:url(outrasfontes/Nunito-Regular.ttf) ;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:'fontessecundarias';
+    src:url(outrasfontes/Nunito-Black.ttf);
+    font-style: normal;
+}
+
+div.logo-imagem{
+    padding-top: 15px; /*abaixar e subir imagem*/
+}
+
+.hamburguer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute; /*permite mudar o texto sem fixá-lo*/
+    margin: 19px;
+    right: 30px;
+    top: 19px;
+}
+
+.hamburguer span{
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    background-image: url(imagem/fundo.png);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    
+}
+
+.quadro-branco h2{ /*colocar o fundo branco*/
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+.quadro-branco p{
+    font-size: 16px;
+    line-height: 2.0;
+}
+/*título destaque da apresentação*/
+h2{
+    font-family: 'minhasfontes', sans-serif;
+    text-align: center;
+    padding: 8%;
+    font-size: 47px; /* mudar o tamanho dos textos*/
+}
+
+.letras{
+    font-family: 'minhasfontes', sans-serif;
+    text-align: center;
+    padding: 8%;
+    font-size: 47px;  
+}
+
+p{
+    padding: -1%;;
+    font-family: 'outrasfontes', sans-serif;
+    text-align: center;
+    
+}
+/*parágrafo da apresentação*/
+.destaque{
+    font-family:'fontessecundarias';
+    font-size: 19px;
+}
+
+ .container{
+    position: relative;
+    width: 1000%;
+    max-width: 1024px; /*largura máxima*/
+    max-height: 768px; /*altura máxima*/
+    padding: 250px;
+ }
+
+.container-personagens{
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.personagem{
+    max-width: 100%;
+    height: auto;
+}
+  
+.introducao{
+    background-color: white;
+}
+
+div.titulo{
+    font-family:'minhasfontes', sans-serif; 
+    font-size: 47px;
+    
+}
+
+div.container-2{
+    text-align: center;
+}
+/*parágrafo da introdução*/
+p{
+    font-family: 'outrasfontes', sans-serif;
+    font-size: 20px;
+}
+
+.dot{
+    position: center;
+    width: 20px;
+    height: 20px;
+    background-color: #555;
+    border-radius: 50%;
+    transition: background-color 0.3s tranform 0.3s;
+    cursor: pointer;
+}
+
+.dot:hover{
+    background-color: #000;
+    transform: scale(1.2);
+}
+
+.dot:active{
+    background-color: #888;
+}
+
+.dots{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 15px;
+}
+
+.container{
+    text-align: center;
+    padding: 20px;
+}
+
+section.introducao{
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    max-width: 1600px;
+    margin: -228px;
+    margin-top: 2290px;
+    padding: 15px;
+    text-align: center;
+   
+}
+
+section.batman{
+    position:absolute;
+    text-align: center;
+}
+
+section.fundo-preto{
+    background-color: black;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    max-width: 1600px;
+    margin: -99px;
+    margin-top: 4718px;
+    padding: 50px;
+    text-align: center;
+   
+}
+
+.paragrafo-branco{
+    font-family:'fontessecundarias';
+    
+}
+
+.tangerina{
+    color: white;
+}
+
+.bolo{
+    color: yellow;
+}
+
+section.retangulo-amarelo{
+    background-color: yellow;
+    align-items: center;
+    position: absolute;
+    width: 1000%;
+    max-width: 1000px;
+    margin: 1000px;
+    padding: 100px;
+    margin-top: 7400px;
+    text-align: center;
+
+}
+
+.serviços{
+    font-family:'fontessecundarias';
+}
+
+section.portfolio{
+    background-color:white;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    max-width: 1600px;
+    margin: -98px;
+    margin-top: 7800px;
+    padding: 0;
+    text-align: center;   
+}
+
+.rosa{
+    color: darkmagenta;
+}
+.cozinha{
+    padding: 250px;
+}
+
+.fundo-cinza{
+    background: rgb(229, 217, 217);
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    max-width: 1600px;
+    margin: 100px;
+    margin-top: 9099px;
+    padding: 0;
+    text-align: center;
+}
+
+div.parcerias{
+    margin: 29px;
+    padding: 35px;
+}
+
+.btn-outline-primary{
+    background-color: rgb(72, 234, 72);
+    color:white;
+    border:none;
+}
+
+.formulario-final{ /*muda a section*/
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    margin-top: 9999px;
+    width: 1519px;
+    height: 510px;/*muda a altura*/
+    padding-top: 0;    
+}
+
+div.formulario{ /*muda a div*/
+    color: yellow;
+    background-color: black;
+    padding: 175px; /*muda a ltura*/
+
+}
+
+.cadeira{
+    color: white;
+}
+
+.page-container{
+    height: 50vh; /* Define a altura da tela */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #000; 
+}
+
+.form-container {
+    background-color: #ffeb3b; 
+    padding: 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    max-width: 400px; 
+    width: 100%; 
+    display: flex; 
+    flex-direction: column; /* Itens na vertical */
+    align-items: center; 
+}
+
+
+input, select {
+    width: 100%; /* Largura total do formulário */
+    padding: 12px; 
+    font-size: 14px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; /* Inclui padding na largura */
+    margin-bottom: 15px; 
+}
+
+
+button {
+    background-color: #4caf50; /* Cor verde */
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    padding: 12px; /* Espaçamento interno */
+    font-size: 16px; 
+    cursor: pointer; 
+    text-transform: uppercase; 
+    font-weight: bold;     
+}
+
+
+button:hover {
+    background-color: #45a049; /* Tom mais escuro de verde */
+}
+
+button:hover {
+    background-color: rgb(22, 99, 192); 
+}
+/*(Novo css) quando for fazer o media*/
+@media screen and (max-width:1024px){
+     .container-personagens{
+        margin: 100px;
+     }
+
+     .introducao{
+        text-align: center;
+        width: 500vw;
+     }
+
+     .retangulo-amarelo{ /*Quarto slide*/
+        height: 300px;
+        position: absolute;
+        width: 80px;
+        align-items: center;
+     }
+     
+     .adquirir{ /*botão do quarto slide*/
+        
+        text-align: center;
+        width: 200px;
+        
+     }
+
+     .word{ /*texto do quarto slide*/
+        right: 32%;
+        position: absolute;
+        text-align: center;
+     }
+
+     .btn-outline-primary{
+        margin: 80px;
+     }
+
+     .bolo{ /*terceiro slide preto*/
+        padding: 119px; /*terceira section*/
+     }
+}
+
+
+    
+
+     
